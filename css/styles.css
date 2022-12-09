@@ -147,8 +147,16 @@ a {
 /* section-herro */
 .herro {
     padding: 192px 0;    
-    text-align: center;    
-    background: var(--navyblue-color);      
+    text-align: center;  
+    max-width: 1440px;  
+    min-height: 603px;
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--navyblue-color);    
+    background-image: url(../img/peopleoffice1.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;    
+    background-size: cover;
 }
 .herro-title {  
     margin: 0 auto 48px auto;
