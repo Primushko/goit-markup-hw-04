@@ -208,7 +208,7 @@ a {
     background-color: #F4F4FD;
 }
 .item:nth-child(1)::before {
-    background-image: url("../img/icons.svg#icon-antenna");
+    background-image: url("../img/antenna.svg");
 }
 .item:nth-child(2)::before {
     background-image: url("../img/icons.svg#icon-clock");
