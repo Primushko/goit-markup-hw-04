@@ -393,10 +393,7 @@ a {
     height: auto;    
 }
 .social-conteiner {
-    display: block;
-    position: absolute;
-    width: 208px;
-    height: 80px;   
+    display: block;      
 }
 .title-header3-footer {
     margin: 0px 0px 8px 0px;
