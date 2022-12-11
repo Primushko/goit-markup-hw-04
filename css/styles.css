@@ -393,7 +393,8 @@ a {
     height: auto;    
 }
 .social-container {
-    display: block;      
+    display: block;
+    margin-left: 120px;      
 }
 .title-header3-footer {
     margin: 0px 0px 8px 0px;
