@@ -275,6 +275,12 @@ a {
 .social-list-icon {
     fill: #F4F4FD;
 }
+    /* section-customers */
+    .logo-company {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    }
     /* section-filters */
 .sectionportfolio {
     padding: 96px 0px 120px 0px;
