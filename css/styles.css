@@ -211,13 +211,13 @@ a {
     background-image: url("../img/antenna.svg");
 }
 .item:nth-child(2)::before {
-    background-image: url("../img/icons.svg#icon-clock");
+    background-image: url("../img/clock.svg");
 }
 .item:nth-child(3)::before {
-    background-image: url("../img/icons.svg#icon-diagram");
+    background-image: url("../img/diagram.svg");
 }
 .item:nth-child(4)::before {
-    background-image: url("../img/icons.svg#icon-astronaut");
+    background-image: url("../img/astronaut.svg");
 }
 .features .item:last-child {
     margin-right: 0;
