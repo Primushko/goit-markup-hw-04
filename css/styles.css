@@ -295,11 +295,7 @@ a {
     width: 168px;
     height: 88px;
     padding: 16px 32px;
-    }
-    .logo-icon:hover {
-        border: #4D5AE5;
-        color: #4D5AE5;
-    }
+    }    
     /* section-filters */
 .sectionportfolio {
     padding: 96px 0px 120px 0px;
