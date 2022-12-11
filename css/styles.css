@@ -375,7 +375,7 @@ a {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.footer-dark .conteiner {
+.footer-dark.conteiner {
     display: flex;
     align-items: baseline;
 }
