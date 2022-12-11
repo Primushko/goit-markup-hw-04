@@ -295,7 +295,18 @@ a {
     width: 168px;
     height: 88px;
     padding: 16px 32px;
-    }    
+    }
+    .logo-icon-link:hover,
+    .logo-icon-link:focus {
+    color: #404BBF;
+    }
+    .logo-icon-company {
+    fill: #8e8f99;
+    }
+    .logo-icon-link:hover, .logo-icon-company,
+    .logo-icon-link:focus .logo-icon-company {
+    color: #404BBF;
+    }
     /* section-filters */
 .sectionportfolio {
     padding: 96px 0px 120px 0px;
