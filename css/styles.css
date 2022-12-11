@@ -276,10 +276,25 @@ a {
     fill: #F4F4FD;
 }
     /* section-customers */
+    .section-customers {
+    display: block;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    }
     .logo-company {
     display: flex;
     justify-content: center;
     gap: 24px;
+    } 
+    .logo-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 168px;
+    height: 88px;
+    padding: 16px 32px;
     }
     /* section-filters */
 .sectionportfolio {
