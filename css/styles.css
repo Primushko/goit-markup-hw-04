@@ -161,13 +161,11 @@ header {
     max-width: 1440px;  
     min-height: 603px;
     margin-left: auto;
-    margin-right: auto;
-    background: var(--navyblue-color);
-    opacity: 0.7;
-    background-image: url(../img/peopleoffice1.jpg);
+    margin-right: auto; 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/peopleoffice1.jpg);
     background-repeat: no-repeat; 
     background-position: center;    
-    background-size: cover;    
+    background-size: cover;     
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .herro-title {  
@@ -210,13 +208,13 @@ header {
     display: block;
     content: "";    
     height: 112px;
-    background-size: contain;
+    background-size: 64px 64px;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F4F4FD;    
 }
 .item:nth-child(1)::before {     
-    background-image: url("../img/antenna.svg") width="64" height="64";
+    background-image: url("../img/antenna.svg");
     margin-bottom: 8px;    
 }
 .item:nth-child(2)::before {
@@ -234,8 +232,8 @@ header {
 .features .item:last-child {
     margin-right: 0;
 }
-.features .item {    
-    margin-right: 22px;
+.features .item {      
+    margin-right: 22px;   
 }
     /* section-going */
 .section-going {
