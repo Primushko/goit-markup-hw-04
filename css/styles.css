@@ -136,6 +136,13 @@ header {
     padding-bottom: 24px;
 }
 .link-padding {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;    
+    letter-spacing: 0.02em;
+    color: #2E2F42;
     height: 24px;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -185,11 +192,12 @@ header {
     height: 51px;
     background: var(--brand-color);
     font-family: 'Roboto';    
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.04em;
-    color: var(--white-text-color);   
+    color: var(--white-text-color);
+    border-color: transparent;
     cursor: pointer;  
 }
 .button:hover {    
@@ -287,6 +295,9 @@ header {
 .social-list-icon {
     fill: #F4F4FD;
 }
+.social-list-link:hover {
+    background: #31D0AA;
+}
     /* section-customers */
     .section-customers {
     display: block;
@@ -306,17 +317,12 @@ header {
     border-radius: 4px;
     width: calc((100%-5*24px) / 6);
     height: 88px;    
+    } 
+    .logo-icon-link {
+    color: #8e8f99;
     }
-    .logo-icon-link:hover,
-    .logo-icon-link:focus {
-    color: #404BBF;
-    }
-    .logo-icon-company {
-    fill: #8e8f99;
-    }
-    .logo-icon-link:hover, .logo-icon-company,
-    .logo-icon-link:focus .logo-icon-company {
-    color: #404BBF;
+    .logo-icon-link:hover {
+    color: #4D5AE5
     }
     /* section-filters */
 .sectionportfolio {
@@ -331,41 +337,22 @@ header {
 .filters .filters-item:not(:last-child) {
     margin-right: 24px;
 }
-.button-all {
-    background: var(--brand-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;  
-    width: 69px;
-    height: 48px;
-    color: var(--white-text-color);   
-}
-.button-web {
-    background: var(--cloud-color);
-    width: 116px;
-    height: 48px;     
+.buttons {
+    background: var(--cloud-color);    
     border-radius: 4px; 
+    border-color: transparent;
     color: var(--brand-color);
-} 
-.button-app {
-    width: 78px;
-    height: 48px;    
-    background: var(--cloud-color);      
-    border-radius: 4px;   
-    color: var(--brand-color);
+    padding: 12px 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
 }
-.button-des {
-    width: 101px;
-    height: 48px;
-    background: var(--cloud-color);    
-    border-radius: 4px;
-    color: var(--brand-color);
-}
-.button-mark {
-    width: 126px;
-    height: 48px;
-    background: var(--cloud-color);    
-    border-radius: 4px;
-    color: var(--brand-color);
+.buttons:hover {
+    background: #404BBF;
+    color: #FFFFFF;
+    cursor: pointer;
 }
     /* .flex-container */
 .flex-container {    
@@ -441,4 +428,7 @@ header {
 }
 .social-footer-icon {
     fill: #F4F4FD;
+}
+.social-footer-link:hover {
+    background: #31D0AA;
 }
