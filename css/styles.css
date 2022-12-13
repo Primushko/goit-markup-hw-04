@@ -442,10 +442,11 @@ cursor: pointer;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
 }
+.social-footer-icon {
+    fill: #F4F4FD;
+}
 .social-footer-link:hover {
     background: #31D0AA;
     cursor: pointer;
 }
-.social-footer-icon {
-    fill: #F4F4FD;
-}
+
