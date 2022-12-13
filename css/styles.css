@@ -351,7 +351,7 @@ header {
 }
 .buttons:hover {
     background: #404BBF;
-    color: #FFFFFF;
+    color: #FFFFFF;    
     cursor: pointer;
 }
     /* .flex-container */
