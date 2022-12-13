@@ -81,8 +81,8 @@ header {
 /* logo */
 .logo-web {  
     display: flex; 
-    padding-top: 20.5px;
-    padding-bottom: 20.5px;
+    padding-top: 21px;
+    padding-bottom: 21px;
     font-family: 'Raleway';    
     font-weight: 800;
     font-size: 18px;
