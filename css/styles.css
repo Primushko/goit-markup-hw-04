@@ -80,7 +80,9 @@ header {
 }
 /* logo */
 .logo-web {  
-    display: flex;    
+    display: flex; 
+    padding-top: 20.5px;
+    padding-bottom: 20.5px;
     font-family: 'Raleway';    
     font-weight: 800;
     font-size: 18px;
@@ -98,9 +100,7 @@ header {
     display: flex;  
     letter-spacing: 0.03em;
     text-transform: uppercase;  
-    color: var(--navyblue-color); 
-    padding-top: 21px;
-    padding-bottom: 21px;
+    color: var(--navyblue-color);     
 }
 .logo-container .logo-web {
     margin-bottom: 16px;
@@ -135,7 +135,7 @@ header {
     padding-top: 24px;
     padding-bottom: 24px;
 }
-.link-padding {
+.link-padding {    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -147,8 +147,10 @@ header {
     padding-top: 24px;
     padding-bottom: 24px;
     }
-.link-padding:hover {
-    color: var(--brand-color) ;
+.link-padding:hover,
+.link-padding:focus {
+    color: var(--brand-color);
+    cursor: pointer;
 }
 .navigation-link {
     display: flex;
@@ -176,7 +178,7 @@ header {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .herro-title {  
-    margin: 0 auto 48px auto;
+    margin: 0 auto 96px auto;
     width: 492px;     
     font-weight: 500;
     font-size: 56px;
@@ -186,8 +188,7 @@ header {
     color: var(--white-text-color);
 }
 .button { 
-    align-items: center;
-    margin-top: 48px;        
+    align-items: center;          
     width: 170px;
     height: 51px;
     background: var(--brand-color);
@@ -255,9 +256,6 @@ header {
 .going-foto .going-item:not(:last-child) {
     margin-right: 24px;
 }
-.going-item img {
-    display: block;    
-    height: auto;}
     /* section-team */
 .section-team {
     background: var(--cloud-color);
@@ -315,8 +313,7 @@ cursor: pointer;
     .logo-icon {
     display: flex;
     justify-content: center;
-    align-items: center;
-    border: 1px solid #8e8f99;
+    align-items: center;    
     border-radius: 4px;
     width: calc((100%-5*24px) / 6);
     height: 88px;    
@@ -445,7 +442,8 @@ cursor: pointer;
 .social-footer-icon {
     fill: #F4F4FD;
 }
-.social-footer-link:hover {
+.social-footer-link:hover,
+.social-footer-link:focus {
     background: #31D0AA;
     cursor: pointer;
 }
