@@ -200,7 +200,8 @@ header {
     border-color: transparent;
     cursor: pointer;  
 }
-.button:hover {    
+.button:hover,
+.button:focus {    
     background: var(--button-click-color);
 }
     /* section-features */
@@ -295,8 +296,10 @@ header {
 .social-list-icon {
     fill: #F4F4FD;
 }
-.social-list-link:hover {
-    background: #31D0AA;
+.social-list-link:hover,
+.social-list-link:focus {
+background: #31D0AA;
+cursor: pointer;
 }
     /* section-customers */
     .section-customers {
@@ -319,10 +322,20 @@ header {
     height: 88px;    
     } 
     .logo-icon-link {
-    color: #8e8f99;
+    display: flex;
+    color: #AFB1B8;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    }    
+    .logo-icon-link:hover,
+    .logo-icon-link:focus {
+    color: violet;
+    border: 1px solid violet;
     }
-    .logo-icon-link:hover {
-    color: #4D5AE5
+    .logo-icon-company {
+    fill: currentColor;
     }
     /* section-filters */
 .sectionportfolio {
@@ -426,9 +439,11 @@ header {
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
 }
+.social-footer-link:hover
+.social-footer-link:focus {
+    background: #31D0AA;
+    cursor: pointer;
+}
 .social-footer-icon {
     fill: #F4F4FD;
-}
-.social-footer-link:hover {
-    background: #31D0AA;
 }
