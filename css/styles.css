@@ -81,23 +81,24 @@ header {
 /* logo */
 .logo-web {  
     display: flex; 
+    align-items: center;
     padding-top: 21px;
     padding-bottom: 21px;
     font-family: 'Raleway';    
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.7;   
-    align-items: center;
+    line-height: 1.7;      
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--brand-color);   
 }
-.logo-studio {    
+.logo-studio {  
+    display: flex;
+    align-items: center;
     font-family: 'Raleway';    
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.7;  
-    display: flex;  
+    line-height: 1.7;      
     letter-spacing: 0.03em;
     text-transform: uppercase;  
     color: var(--navyblue-color);     
@@ -119,6 +120,7 @@ header {
 /* navigation */
 .navigation {   
     display: flex;
+    align-items: center;    
     margin-left: 77px;
     font-family: 'Roboto';    
     font-weight: 500;
@@ -131,11 +133,10 @@ header {
     margin-right: 40px;
 }
 .navigation .nav-item {
-    display: block;    
-    padding-top: 24px;
-    padding-bottom: 24px;
+    display: block;   
 }
-.link-padding {    
+.link-padding {  
+    display: flex;  
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
